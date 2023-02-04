@@ -1,69 +1,193 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lana Okubo</title>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
-</head>
-<body>
-  <header>
-    <div class="container">
-      <div class="header-left">
-        <img src="logo.png" width="400">
+---
+layout: home-page
+
+
+---
+<div class="small-wrapper" align="center">
+  <div class="about-container" align="center">
+    <section class="about-header">
+      <div class="author-image-container">
+        <img src="{{site.baseurl}}/assets/img/souyoung_profile_2022.JPG" alt="{{site.author}}">
       </div>
-      <span class="fa fa-bars menu-icon"></span>
-      <div class="header-right">
-        <a href="#">Publications</a>       
-        <a href="#">Carrers</a>
-        <a href="#">Contact</a>
-      </div>
-    </div>
-  </header>
-  <div class="top-wrapper">
-    <div class="container">
-      <h1>I'm <strong>Lana Okubo</strong>.</h1>
-      <p>2022. 11. 17. Psychonomic Society 63rd Annual Meetingで発表予定です<br>.</p>
-      <div class="btn-wrapper">
-        <a href="https://researchmap.jp/lana_okubo"><img src="https://researchmap.jp/outline/img/researchmap220.gif" alt="researchmap"></a>
-      </div>
-    </div>
+      <!-- <p class="subtitle">{{site.about-author}}</p> -->
+      <p class="subtitle">
+        I am an Assistant Professor in the <a href="https://web.cs.dartmouth.edu/" target="_blank">Department of Computer Science</a> 
+        at <a href="https://home.dartmouth.edu/" target="_blank">Dartmouth College</a>.  
+        Before joining Dartmouth, I was a postdoctoral associate 
+        at the <a href="https://www.csail.mit.edu/" target="_blank">Computer Science and Artificial Intelligence Laboratory (CSAIL)</a> 
+        at the <a href="https://www.mit.edu/" target="_blank">Massachusetts Institute of Technology (MIT)</a>, 
+        working with <a href="http://olivalab.mit.edu/audeoliva.html" target="_blank">Dr. Aude Oliva</a>. 
+        Previously I earned my PhD in <a href="https://www.cics.umass.edu/" target="_blank">College of Information and Computer Sciences (CICS)</a>, 
+        <a href="https://www.umass.edu/" target="_blank">University of Massachusetts, Amherst (UMass Amherst)</a>, 
+        where I researched on improving face clustering in videos under 
+        <a href="https://people.cs.umass.edu/~elm/" target="_blank">Dr. Erik Learned-Miller</a> 
+        in the <a href="http://vis-www.cs.umass.edu/" target="_blank">Computer Vision Lab</a>.
+      </p>
+      
+      <p class="subtitle">
+        My main research area is in Computer Vision, Machine Learning and Cognitive Science. 
+        My area of expertise is video understanding. 
+        As a computer vision researcher, one of my ultimate aspirations is to build an AI system 
+        that can understand and respond to the richness of human experience and emotion, much like Jarvis in the Iron Man movie.
+        Here is <a href="https://souyoungjin.github.io/assets/SouYoung_CV.pdf" target="_blank"><b>my CV</b></a>.
+        
+      </p>
+      
+      <p class="subtitle">
+        <b>
+          If you want to work with me, please apply to <a href="https://web.cs.dartmouth.edu/graduate/applying/phd-computer-science" target="_blank">the Dartmouth CS PhD Program</a>.  
+        </b>
+      </p>
+      
+    </section>
+    <section class="about-body">
+      <ul class="contact-list">
+        <li class="email"><a href=""><i class="fa fa-envelope-o"></i> souyoung.jin [at] dartmouth.edu</a></li> <br>
+        <li class="website"><a href="https://scholar.google.com/citations?user=_B-_CzYAAAAJ&hl=en" target="_blank"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></li>
+        <!-- 
+        <li class="email"><a href="mailto:{{site.email}}"><i class="fa fa-envelope-o"></i></a></li>
+        <li class="website"><a href="http://{{site.website}}" target="_blank"><i class="fa fa-globe"></i></a></li>
+        -->
+      </ul>
+    </section> <!-- End About Body-->
+  </div> <!-- End About Container -->
+</div> <!-- End Small Wrapper -->
+
+<div class="small-wrapper" align="center">
+  <div class="section-container" align="left">
+    <h1 id="sec:publication" style="color:black" align="left">Publications</h1> 
+    <span>(* indicates equal contribution)</span> <br>
   </div>
-  <div class="publications-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>.</h2>
-      </div>
-      <div class="publications">
-        <div class="publication">
-          <div class="publication-icon">
-            <img src="https://ars.els-cdn.com/content/image/1-s2.0-S105381002100026X-gr1_lrg.jpg" width="300">
-          </div>
-          <p class="text-contents">Okubo, L., Yokosawa, K., Sawayama, M., & Kawabe, T. (2021). Discounting mechanism underlies extinction illusion. Consciousness and Cognition, 90, 103100.</p>
-        </div>
-        <div class="publication">
-          <div class="publication-icon">
-            <img src="https://ars.els-cdn.com/content/image/1-s2.0-S105381002100026X-gr1_lrg.jpg" width="300">
-          </div>
-          <p class="text-contents">Okubo, L., Yokosawa, K., Sawayama, M., & Kawabe, T. (2021). Discounting mechanism underlies extinction illusion. Consciousness and Cognition, 90, 103100.</p>
-        </div>
-      </div>
-      <div class="clear"></div>
-    </div>
+  <div class="publication-container" align="center">
+    <ul>
+ 
+      <li>
+        <img src="{{site.baseurl}}/assets/img/SynAPT_teaser.png">
+        <p>
+          Yo-whan Kim, Samarth Mishra, <b>SouYoung Jin</b>, Rameswar Panda, Hilde Kuehne, Leonid Karlinsky, Venkatesh Saligrama, Kate Saenko, Aude Oliva, and Rogerio Feris.
+          <b>How Transferable are Video Representations Based on Synthetic Data?</b>. 
+          Neural Information Processing Systems Datasets and Benchmarks Track 2022.
+        <a href="https://openreview.net/pdf?id=lRUCfzs5Hzg" target="_blank">[pdf]</a>
+        <a href="https://openreview.net/attachment?id=lRUCfzs5Hzg&name=supplementary_material" target="_blank">[supp]</a>
+        <br>
+        <a href="https://news.mit.edu/2022/synthetic-data-ai-improvements-1103" target="_blank"><b>[MIT News]</b></a>
+        </p>
+      </li> 
+      
+      <li>
+        <img src="{{site.baseurl}}/assets/img/CrossModalVQ_teaser.png">
+        <p>Alexander H Liu, <b>SouYoung Jin</b>, Cheng-I Jeff Lai, Andrew Rouditchenko, Aude Oliva, and James Glass. <b>Cross-Modal Discrete Representation Learning</b>. Annual Meeting of the Association for Computational Linguistics (ACL) 2022.
+        <br><span style="background-color: #e264f5; font-family: Courier">oral</span>
+        <a href="https://aclanthology.org/2022.acl-long.215.pdf" target="_blank">[pdf]</a>
+        <a href="https://news.mit.edu/2022/ai-video-audio-text-connections-0504" target="_blank"><b>[MIT News]</b></a>
+        </p>
+      </li> 
+      
+      <li>
+        <img src="{{site.baseurl}}/assets/img/spoken_moments_teaser.png">
+        <p>Mathew Monfort*, <b>SouYoung Jin*</b>, Alexander Liu, David Harwath, Rogerio Feris, James Glass, and Aude Oliva. <b>Spoken Moments: Learning Joint Audio-Visual Representations from Video Descriptions</b>. Computer Vision and Pattern Recognition (CVPR), 2021.
+        <br>
+        <a href="https://openaccess.thecvf.com/content/CVPR2021/papers/Monfort_Spoken_Moments_Learning_Joint_Audio-Visual_Representations_From_Video_Descriptions_CVPR_2021_paper.pdf" target="_blank">[pdf]</a>
+        <a href="https://openaccess.thecvf.com/content/CVPR2021/supplemental/Monfort_Spoken_Moments_Learning_CVPR_2021_supplemental.pdf" target="_blank">[supp]</a>
+        <a href="http://moments.csail.mit.edu/spoken.html" target="_blank">[project page]</a>
+        </p>
+      </li>
+
+      <li>
+        <img src="{{site.baseurl}}/assets/img/HnH.png">
+        <p>Ashish Singh*, Hang Su*, <b>SouYoung Jin</b>, Huaizu Jiang, Chetan Manjesh, Geng Luo, Ziwei He, Li Hong, Erik G. Learned-Miller, and Rosemary Cowell. <b>Half&Half: New Tasks and Benchmarks for Studying Visual Common Sense</b>. CVPR 2019 Workshop on Vision Meets Cognition, 2019.
+        <a href="http://openaccess.thecvf.com/content_CVPRW_2019/papers/Vision_Meets_Cognition_Camera_Ready/Singh_HalfHalf_New_Tasks_and_Benchmarks_for_Studying_Visual_Common_Sense_CVPRW_2019_paper.pdf" target="_blank">[pdf]</a></p>
+      </li> 
+
+      <li>
+        <img src="{{site.baseurl}}/assets/img/cvpr19_domain-adaptation.png">
+        <p>Aruni RoyChowdhury, Prithvijit Chakrabarty, Ashish Singh, <b>SouYoung Jin</b>, Huaizu Jiang, Liangliang Cao, and Erik Learned-Miller. <b>Automatic adaptation of object detectors to new domains using self-training</b>. Computer Vision and Pattern Recognition (CVPR), 2019. <br>
+        <a href="http://vis-www.cs.umass.edu/unsupVideo/docs/self-train_cvpr2019.pdf" target="_blank">[pdf]</a> 
+        <a href="http://vis-www.cs.umass.edu/unsupVideo/" target="_blank">[project page]</a></p>
+      </li>
+
+      <li>
+        <img src="{{site.baseurl}}/assets/img/eccv18_hard-example.png">
+        <p><b>SouYoung Jin*</b>, Aruni RoyChowdhury*, Huaizu Jiang, Ashish Singh, Aditya Prasad, Deep Chakraborty, and Erik Learned-Miller. <b>Unsupervised hard example mining from videos for improved object detection</b>. European Conference on Computer Vision (ECCV), 18 pages, 2018.<br>
+        <a href="http://vis-www.cs.umass.edu/unsupVideo/docs/unsup-video_eccv2018.pdf" target="_blank">[pdf]</a> 
+        <a href="http://vis-www.cs.umass.edu/unsupVideo/" target="_blank">[project page]</a></p>
+      </li>
+
+      <li>
+        <img src="{{site.baseurl}}/assets/img/iccv17_erdos-renyi.jpg">
+        <p><b>SouYoung Jin</b>, Hang Su, Chris Stauffer, and Erik Learned-Miller. <b>End-to-end face detection and cast grouping in movies using Erdos-Renyi clustering</b>. International Conference on Computer Vision (ICCV), 10 pages, 2017. 
+        <br><span style="background-color: #e264f5; font-family: Courier">spotlight</span> 
+        <a href="http://openaccess.thecvf.com/content_ICCV_2017/papers/Jin_End-To-End_Face_Detection_ICCV_2017_paper.pdf" target="_blank">[pdf]</a> 
+        <a href="http://openaccess.thecvf.com/content_ICCV_2017/supplemental/Jin_End-To-End_Face_Detection_ICCV_2017_supplemental.pdf" target="_blank">[supp]</a>
+        <a href="https://github.com/souyoungjin/erclustering" target="_blank">[code]</a>
+        <a href="https://sites.google.com/site/erclustering/" target="_blank">[project page]</a></p>
+      </li>
+
+      <li>
+        <img src="{{site.baseurl}}/assets/img/eurographics14_colorization.jpg">
+        <p><b>Sou-Young Jin</b>, Ho-Jin Choi, and Yu-Wing Tai. <b>A Randomized Algorithm for Natural Object Colorization</b>. Computer Graphics Forum (Special Issue on Eurographics), vol. 33, no. 2, 2014.  
+        <a href="https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.12294" target="_blank">[pdf]</a> 
+        <a href="https://drive.google.com/file/d/0B-g8hU4c9tRiSTZGWExHZkFrLWs/view" target="_blank">[supp]</a></p>
+      </li>
+
+      <li>
+        <img src="{{site.baseurl}}/assets/img/bigcomp14_jigsaw.jpg">
+        <p><b>Sou-Young Jin</b>, Suwon Lee, Nur Aziza Azis, and Ho-Jin Choi. <b>Jigsaw Puzzle Image Retrieval via Pairwise Compatibility Measurement</b>. International Conference on Big Data and Smart Computing (BigComp), pages 123 – 127, Bangkok, Thailand, Jan. 15-17, 2014. 
+        <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6741421" target="_blank">[pdf]</a></p>
+      </li>
+
+      <li>
+        <img src="{{site.baseurl}}/assets/img/lncs13_lcs.jpg">
+        <p><b>Sou-Young Jin</b> and Ho-Jin Choi. <b>Essential Body-Joint and Atomic Action Detection for Human Activity Recognition Using Longest Common Subsequence Algorithm</b>. Lecture Notes in Computer Science, vol. 7729, pages 148-159, 2013. 
+        <a href="http://koasas.kaist.ac.kr/bitstream/10203/172121/1/2012_ACCV(workshop)_%EC%A7%84%EC%86%8C%EC%98%81.pdf" target="_blank">[pdf]</a></p>
+      </li>
+
+      <li>
+        <img src="{{site.baseurl}}/assets/img/icmv13_error-pose.png">
+        <p><b>Sou-Young Jin</b>, Ho-Jin Choi, and Youssef Iraqi. <b>Depth Consistency Evaluation for Error-Pose Detection</b>. International Conference on Machine Vision (ICMV), 15-16 November 2013.  
+        <a href="https://drive.google.com/file/d/0B-g8hU4c9tRiVVNtbHh1NUZEdEE/view" target="_blank">[pdf]</a></p>
+      </li>
+
+      <li>
+        <img src="{{site.baseurl}}/assets/img/icmv13_clustering.jpg">
+        <p><b>Sou-Young Jin</b>, Ho-Jin Choi. <b>Clustering Space-Time Interest Points for Action Representation</b>. International Conference on Machine Vision (ICMV), 15-16 November 2013.   
+        <a href="https://drive.google.com/file/d/0B-g8hU4c9tRiTzBJQ3ppRWQ2S0E/view" target="_blank">[pdf]</a></p>
+      </li>
+
+      <li>
+        <img src="{{site.baseurl}}/assets/img/scr12_surveillance.jpg">
+        <p><b>Sou-Young Ji</b>, Young-Seob Jong, Chankyu Park, Kyo-Joong Oh, and Ho-Jin Choi. <b>An Intelligent Multi-Sensor Surveillance System for Elderly Care</b>. Smart Computing Review, vol. 2, no. 4, August 2012. 
+        <a href="https://drive.google.com/file/d/0B-g8hU4c9tRiQVBSTnlaUWNTSjA/view" target="_blank">[pdf]</a></p>
+      </li>
+
+      <li>
+        <img src="{{site.baseurl}}/assets/img/none.png">
+        <p><b>Sou-Young Jin</b>, Jae-Kyung Won, Hojin Lee, and Ho-Jin Choi. <b>Construction of Automated Screening System to Predict Breast Cancer Diagnosis and Prognosis. Basic and Applied Pathology</b>, vol. 5, issue 1, pages 15-18, 16 Mar. 
+        <a href="https://drive.google.com/file/d/0B-g8hU4c9tRiWEtSSzJpWTVwcVE/view" target="_blank">[pdf]</a></p>
+      </li>
+
+    </ul>
   </div>
-  <div class="carrers-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>修士号ある</h2>
-        <h2>DC2なう</h2>
+</div>
+
+
+<!--
+<ol class="post-card-box clearfix">
+  {% for post in paginator.posts %}
+  <li>
+    <div class="post-card">
+      <a href="{{post.url | prepend: site.baseurl}}" class="post-card-image" style="background-image: url( {{ "/assets/img/" | prepend: site.baseurl | append : post.img}} )">
+      </a>
+
+      <div class="post-card-body">
+        {% for tag in post.tags %}
+        <a href="{{site.baseurl}}/tags#{{tag}}" class="tag">|&#32;{{ tag }}</a>
+        {% endfor %}
+        <a href="{{post.url | prepend: site.baseurl}}" class="post-card-link"><h3 class="post-card-title">{{post.title}}</h3></a>
       </div>
+
     </div>
-  </div>
-  <footer>
-    <div class="container">
-      <p>2022 ©︎ Lana Okubo</p>
-    </div>
-  </footer>
-</body>
-</html>
+  </li>
+  {% endfor %}
+</ol>
+-->
