@@ -1,24 +1,23 @@
-title: SouYoung Jin
-email: souyoung.jin@dartmouth.edu
+title: Lana Okubo
+email: lanaokubo@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://souyoungjin.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://lnokb.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author settings
-author: SouYoung Jin # add your name
-author-pic: souyoung.jpeg
-about-author: I am a postdoctoral associate at the <a href="https://www.csail.mit.edu/" target="_blank">Computer Science and Artificial Intelligence Laboratory (CSAIL)</a> at the <a href="https://www.mit.edu/" target="_blank">Massachusetts Institute of Technology (MIT)</a>, working with <a href="http://olivalab.mit.edu/audeoliva.html" target="_blank">Dr. Aude Oliva</a>. Previously I earned my PhD in <a href="https://www.cics.umass.edu/" target="_blank">College of Information and Computer Sciences (CICS)</a>, <a href="https://www.umass.edu/" target="_blank">University of Massachusetts, Amherst (UMass Amherst)</a>, where I researched on improving face clustering in videos under <a href="https://people.cs.umass.edu/~elm/" target="_blank">Dr. Erik Learned-Miller</a> in the <a href="http://vis-www.cs.umass.edu/" target="_blank">Computer Vision Lab</a>.<br><br>My main research area is in Computer Vision, Machine Learning and Cognitive Science. My area of expertise is video understanding. Here is <a href="https://souyoungjin.github.io/assets/SouYoung_CV.pdf" target="_blank"><b>my CV</b></a>.
+author: Lana Okubo # add your name
+about-author: I am a graduate student at the <a href="https://www.csail.mit.edu/" target="_blank">Computer Science and Artificial Intelligence Laboratory (CSAIL)</a> at the <a href="https://www.mit.edu/" target="_blank">Massachusetts Institute of Technology (MIT)</a>, working with <a href="http://olivalab.mit.edu/audeoliva.html" target="_blank">Dr. Aude Oliva</a>. Previously I earned my PhD in <a href="https://www.cics.umass.edu/" target="_blank">College of Information and Computer Sciences (CICS)</a>, <a href="https://www.umass.edu/" target="_blank">University of Massachusetts, Amherst (UMass Amherst)</a>, where I researched on improving face clustering in videos under <a href="https://people.cs.umass.edu/~elm/" target="_blank">Dr. Erik Learned-Miller</a> in the <a href="http://vis-www.cs.umass.edu/" target="_blank">Computer Vision Lab</a>.<br><br>My main research area is in Computer Vision, Machine Learning and Cognitive Science. My area of expertise is video understanding. Here is <a href="https://souyoungjin.github.io/assets/SouYoung_CV.pdf" target="_blank"><b>my CV</b></a>.
 
 # Contact links
-email: souyoung@umass.edu # Add your Email address
+email: lanaokubo@gmail.com # Add your Email address
 phone: # Add your Phone number
-website: souyoungjin.com # Add your website, do not add http://
+website: # Add your website, do not add http://
 linkedin: # Add your Linkedin handle
-github: souyoungjin # Add your Github handle
+github: LNOKB # Add your Github handle
 twitter:  # Add your Twitter handle
 facebook: # Add your Facebook handle
 instagram: # Add your Instagram handle
@@ -31,14 +30,14 @@ mailchimp: # Add your MailChimp form identifier.
 discus_identifier:  # Add your discus identifier
 
 # Tracker
-analytics: UA-69053932-1 # Google Analytics
+analytics: # Google Analytics
 
 # Paginate
-paginate: 8
-paginate_path: /page:num/
+paginate:
+paginate_path:
 
 # Build settings
-markdown: kramdown
+markdown: 
 
 plugins:
   - jekyll-paginate
